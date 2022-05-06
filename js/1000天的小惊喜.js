@@ -3,6 +3,11 @@
 $('#test').click(function(){
     $('#surprise').removeAttr("disabled");
   }); */}
+  document.getElementById("submit").onclick = function(){
+    const music = new Audio('music/This Love.mp3');
+    music.play();
+    music.loop =true;
+}
 
 
 //点击打开挑战
